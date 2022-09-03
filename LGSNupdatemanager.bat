@@ -1,7 +1,7 @@
 :: LGSN Update Manager made by MrLuto (Micha Mudde)
-powershell -window hidden -Command "Invoke-WebRequest http://node25.mc-node.net:26133/hgb/updatemanager -OutFile LGSNupdatemanager.bat"
-powershell -window hidden -Command "Invoke-WebRequest http://node25.mc-node.net:26133/hgb/statusmanager -OutFile LGSNstatusmanager.bat"
-powershell -window hidden -Command "Invoke-WebRequest http://node25.mc-node.net:26133/hgb/startall -OutFile C:\Users\%USERNAME%\OneDrive\Bureaublad\startall.bat"
-powershell -window hidden -Command "Invoke-WebRequest http://node25.mc-node.net:26133/hgb/startsites -OutFile C:\Users\%USERNAME%\OneDrive\Bureaublad\startsites.bat"
-powershell -window hidden -Command "Invoke-WebRequest http://node25.mc-node.net:26133/hgb/liturgie -OutFile C:\Users\%USERNAME%\OneDrive\Documenten\liturgie"
+powershell -window hidden -Command "Invoke-WebRequest (add here url for the updatemanager download page) -OutFile LGSNupdatemanager.bat"
+powershell -window hidden -Command "Invoke-WebRequest (add here url for the statusmanager download page) -OutFile LGSNstatusmanager.bat"
+powershell -window hidden -Command "Invoke-WebRequest (add here url for the startall download page) -OutFile C:\Users\%USERNAME%\OneDrive\Bureaublad\startall.bat"
+powershell -window hidden -Command "Invoke-WebRequest (add here url for the startsites download page) -OutFile C:\Users\%USERNAME%\OneDrive\Bureaublad\startsites.bat"
+powershell -window hidden -Command "Invoke-WebRequest (add here url for the liturgie download page) -OutFile C:\Users\%USERNAME%\OneDrive\Documenten\liturgie"
 ./statusmanager.bat
