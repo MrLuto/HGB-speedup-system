@@ -1,12 +1,20 @@
-# HGB-speedup-system
+
+# HGB Speedup System
+
 some software to make work easier
 
-install:
 
-git clone https://github.com/MrLuto/HGB-speedup-system.git
+## Installation
 
-cd HGB-speedup-system
+just clone change and use it
 
-(open all the files and add the corresponding urls)
+```bash
+  git clone https://github.com/MrLuto/HGB-speedup-system.git
+  cd HGB-speedup-system
+```
+    
+## Authors
 
-./LGSNupdatemanager.bat
+- [@MrLuto](https://www.github.com/MrLuto)
+
+
